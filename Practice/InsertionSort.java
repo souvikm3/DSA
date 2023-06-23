@@ -11,6 +11,7 @@ public class InsertionSort {
             }
             arr[j+1]=temp;
         }
+        
     }
     public static void main(String args[]){
         int arr[]={1,8,5,7,4};
