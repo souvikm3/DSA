@@ -10,6 +10,17 @@ public class TakeInput {
         System.out.println("Enter the size of Columns of the array:");
         int column=sc.nextInt();
         int arr[][]=new int[row][column];
-        for(int i=0;)
+        for(int i=0;i<row;i++){
+            for(int j=0;j<column;j++){
+                System.out.println("Enter the "+i+" row and "+j+"th column");
+                arr[i][j]=sc.nextInt();
+            }
+        }
+        for(int i=0;i<row;i++){
+            for(int j=0;j<column;j++){
+                System.out.print(arr[i][j]);
+            }
+            System.out.println();
+        }
     }
 }
