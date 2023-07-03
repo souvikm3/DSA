@@ -1,4 +1,4 @@
-package OPPS;
+package OOPS;
 
 public class StuentClass {
     String name;

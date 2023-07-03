@@ -1,4 +1,4 @@
-package OPPS;
+package OOPS;
 
 public class StudentClassUse {
     public static void main(String args[]){
