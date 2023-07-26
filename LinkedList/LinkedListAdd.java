@@ -183,4 +183,7 @@ public class LinkedListAdd {
         ll.print();
 
     }
+
+    public void DeletefromNthNode(int i) {
+    }
 }
